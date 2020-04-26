@@ -1,0 +1,27 @@
+{
+   "name": "type-orm-basics",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
+   },
+   "author": "Andrew Allison <andrew.allison@digitalinfamy.com>",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "tsconfig-paths": "^3.9.0",
+      "tslint": "^6.1.1",
+      "typeorm": "^0.2.24",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "mysql": "^2.14.1",
+      "pg": "^7.3.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.24"
+   }
+}
