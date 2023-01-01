@@ -12,7 +12,7 @@
    "devDependencies": {
       "@types/node": "^8.0.29",
       "ts-node": "3.3.0",
-      "tsconfig-paths": "^3.9.0",
+      "tsconfig-paths": "^3.10.1",
       "tslint": "^6.1.1",
       "typeorm": "^0.2.24",
       "typescript": "3.3.3333"
